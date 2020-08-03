@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap");
-
+//COLORS
+$primary-color:#f4f4fc37;
+$secondry-color:#f3f3f92a;
+$text-color: #585961;
+$purple1: #6e88cf;
+$purple2: #728dee;
 *,
 *::after,
 *::before{
@@ -10,34 +15,40 @@ box-sizing: border-box;
 
 html,
 body {
-  background-color: #fff;
+  
   font-family: 'Orbitron', sans-serif;
   font-size:10px;
 }
 
 .Calculator-main{
+  background-color: $secondry-color;
   margin: auto;
   margin-top:5rem;
   padding: .5rem;
-  border:.1rem solid gray;
+  // border:.1rem solid gray;
   border-radius:1rem;
-  width:30vw;
-  height: 60vh;
+  width:29rem;
+  height: 55rem;
+  box-shadow: 2px 5px 16px 0px rgb(238, 238, 247);
   
 
 .Calculator-screen{
-  width:26.5vw;
-  height:15vh;
+  background-color: $primary-color;
+  width:26rem;
+  height:13rem;
   margin:1rem;
-  border: .1rem solid gray;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.508);
+  border-right:2px solid  rgba(255, 255, 255, 0.508);;
   border-radius: 1rem; 
+  box-shadow: 2px 5px 16px 0px rgb(238, 238, 247);
 
 .result{
+  background-color: transparent;
 border:none;
 font-weight: 600;
 font-size:3rem;
-width: 24vw;
-height:13vh;
+width: 25rem;
+height:12rem;
 margin:.5rem;
 }
 }
@@ -53,6 +64,21 @@ width:5rem;
 height:5rem;
 margin:.7rem;
 border-radius: 50%;
+background-color: transparent;
+box-shadow: 2px 5px 16px 0px rgb(238, 238, 247);
+border:none;
+font-size: 2.3rem;
+}
+.number{
+color: $text-color;
+}
+.operation{
+color:$purple2;
+font-weight: 800;
+}
+.clear{
+color: #f3bcfc;
+font-weight:800;
 }
 }
 }
