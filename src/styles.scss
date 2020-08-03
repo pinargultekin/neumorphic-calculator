@@ -12,8 +12,47 @@ html,
 body {
   background-color: #fff;
   font-family: 'Orbitron', sans-serif;
+  font-size:10px;
+}
 
-  h1 {
-    color:#000;
-  }
+.Calculator-main{
+  margin: auto;
+  margin-top:5rem;
+  padding: .5rem;
+  border:.1rem solid gray;
+  border-radius:1rem;
+  width:30vw;
+  height: 60vh;
+  
+
+.Calculator-screen{
+  width:26.5vw;
+  height:15vh;
+  margin:1rem;
+  border: .1rem solid gray;
+  border-radius: 1rem; 
+
+.result{
+border:none;
+font-weight: 600;
+font-size:3rem;
+width: 24vw;
+height:13vh;
+margin:.5rem;
+}
+}
+
+.Calculator-buttons{
+margin-left:1rem;
+
+.row:first-child{
+margin-top:4rem;
+}
+  .button{
+width:5rem;
+height:5rem;
+margin:.7rem;
+border-radius: 50%;
+}
+}
 }
