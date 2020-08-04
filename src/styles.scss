@@ -29,7 +29,7 @@ body {
   border-radius:1rem;
   width:29rem;
   height: 55rem;
-  box-shadow: 2px 5px 16px 0px rgb(238, 238, 247);
+  box-shadow: .2rem .5rem 1.6rem 0px rgb(238, 238, 247);
   
 
 .Calculator-screen{
@@ -37,13 +37,13 @@ body {
   width:26rem;
   height:13rem;
   margin:1rem;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.508);
-  border-right:2px solid  rgba(255, 255, 255, 0.508);;
+  border-bottom: .4rem solid rgba(255, 255, 255, 0.508);
+  border-right:.4rem solid  rgba(255, 255, 255, 0.508);;
   border-radius: 1rem; 
-  box-shadow: 2px 5px 16px 0px rgb(238, 238, 247);
+  box-shadow: .2rem .5rem 1.6rem 0px rgb(238, 238, 247);
 
 .result{
-  background-color: transparent;
+background-color: transparent;
 border:none;
 font-weight: 600;
 font-size:3rem;
