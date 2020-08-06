@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap");
 //COLORS
 $primary-color:#f4f4fc37;
-$secondry-color:#f3f3f92a;
+$secondry-color:hsla(240, 33%, 96%, 0.165);
 $text-color: #585961;
+$text-color-light: #979799;
 $purple1: #6e88cf;
 $purple2: #728dee;
 *,
@@ -42,15 +43,29 @@ body {
   border-radius: 1rem; 
   box-shadow: .2rem .5rem 1.6rem 0px rgb(238, 238, 247);
 
-.result{
+.output{
+font-size: 3rem;
+text-align:end;
+color:$text-color;
 background-color: transparent;
-border:none;
 font-weight: 600;
-font-size:3rem;
-width: 25rem;
-height:12rem;
-margin:.5rem;
 }
+.current-num{
+  font-size:2rem;
+  text-align:end;
+  color:$text-color-light;
+  background-color: transparent;
+}
+// .result{
+// background-color: transparent;
+// border:none;
+// font-weight: 600;
+// font-size:3rem;
+// width: 25rem;
+// height:12rem;
+// margin:.5rem;
+// text-align:end;
+// }
 }
 
 .Calculator-buttons{
@@ -68,17 +83,28 @@ background-color: transparent;
 box-shadow: 2px 5px 16px 0px rgb(238, 238, 247);
 border:none;
 font-size: 2.3rem;
+cursor: pointer;
+&:hover{
+  font-weight: 600;
+  }
+&:focus{
+  outline:none;
 }
+}
+
 .number{
 color: $text-color;
+
 }
 .operation{
 color:$purple2;
-font-weight: 800;
+font-weight: 500;
+
+
 }
 .clear{
 color: #f3bcfc;
-font-weight:800;
+font-weight:500;
 }
 }
 }
