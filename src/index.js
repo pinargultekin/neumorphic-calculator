@@ -7,12 +7,8 @@ const App = () => (
   <div className="Calculator-main">
     <form>
       <div className="Calculator-screen">
-        <div className="current-num">
-          567
-        </div>
-        <div className="output">
-       678
-        </div>
+        <div className="current-num">567</div>
+        <div className="output">678</div>
         {/* <input className="result" type="text" placeholder="0" name="result" /> */}
       </div>
       <div className="Calculator-buttons">
